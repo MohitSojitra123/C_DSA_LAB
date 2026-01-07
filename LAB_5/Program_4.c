@@ -3,12 +3,10 @@
 
 #include <stdio.h>
 
-
 struct Complex {
     float real;
     float imag;
 };
-
 
 struct Complex addComplex(struct Complex c1, struct Complex c2) {
     struct Complex sum;
